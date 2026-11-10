@@ -31,7 +31,7 @@ Weights are on Hugging Face: [Gargi](https://huggingface.co/udgamlabs/Gargi) (ch
 Try it in the browser at [udgamlabs.com/models/gargi](https://udgamlabs.com/models/gargi).
 
 ```bash
-ollama run hf.co/udgamlabs/Gargi-GGUF:Q8_0          # Ollama (/set think for step-by-step thinking)
+ollama run hf.co/udgamlabs/Gargi-GGUF:Q8_0          # Ollama (thinking on by default; /set nothink to turn it off)
 llama-cli -hf udgamlabs/Gargi-GGUF:Q8_0 -c 16384    # llama.cpp
 mlx_lm.chat --model udgamlabs/Gargi-MLX             # Apple silicon
 ```
